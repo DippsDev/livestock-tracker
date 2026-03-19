@@ -18,6 +18,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Background image — covers full screen on all devices */
+.hero-bg {
+  background-size: cover;
+  background-position: center 85%;
+  background-attachment: scroll;
+}
+
+@media (max-width: 1024px) {
+  .hero-bg {
+    background-position: center center;
+  }
+}
+
 /* Responsive nav helpers */
 .mobile-hide {
   display: none;

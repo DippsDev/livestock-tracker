@@ -46,7 +46,6 @@ export default function Home() {
           <button
             onClick={() => setOpen((v) => !v)}
             aria-label="Toggle menu"
-            style={{ display: "flex" }}
             className="desktop-hide text-white p-1"
           >
             {open ? <XMarkIcon className="w-6 h-6" /> : <Bars3Icon className="w-6 h-6" />}

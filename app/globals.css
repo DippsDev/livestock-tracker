@@ -40,12 +40,20 @@ body {
   display: flex;
 }
 
+.mobile-menu {
+  display: block;
+}
+
 @media (min-width: 768px) {
   .mobile-hide {
     display: flex;
   }
 
   .desktop-hide {
+    display: none;
+  }
+
+  .mobile-menu {
     display: none;
   }
 }

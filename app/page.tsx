@@ -128,22 +128,22 @@ export default function Home() {
           <p className="text-white/70 text-base max-w-lg mx-auto mb-14">No hidden fees. Just what you need to track your herd.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* GPS Tag */}
-            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 flex flex-col items-center">
-              <span className="text-white/60 text-sm font-medium uppercase tracking-wide mb-3">GPS Ear Tag</span>
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 md:p-8 flex flex-col items-center">
+              <span className="text-white/60 text-xs md:text-sm font-medium uppercase tracking-wide mb-3">GPS Ear Tag</span>
               <div className="flex items-end gap-1 mb-2">
-                <span className="text-5xl font-extrabold text-white">P950</span>
-                <span className="text-white/50 text-base mb-2">/ tag</span>
+                <span className="text-4xl md:text-5xl font-extrabold text-white">P950</span>
+                <span className="text-white/50 text-sm md:text-base mb-2">/ tag</span>
               </div>
               <p className="text-white/60 text-sm mb-6">Lightweight, durable GPS tag for each animal. One-time purchase.</p>
               <a href="/register" className="w-full text-center bg-white text-gray-900 font-semibold py-3 rounded-xl hover:bg-gray-100 transition-colors text-sm">Order Tags</a>
             </div>
             {/* Subscription */}
-            <div className="bg-white/15 backdrop-blur-sm border border-white/30 rounded-2xl p-8 flex flex-col items-center relative overflow-hidden">
-              <span className="absolute top-4 right-4 bg-white text-gray-900 text-xs font-bold px-3 py-1 rounded-full">Monthly</span>
-              <span className="text-white/60 text-sm font-medium uppercase tracking-wide mb-3">Platform Subscription</span>
+            <div className="bg-white/15 backdrop-blur-sm border border-white/30 rounded-2xl p-6 md:p-8 flex flex-col items-center relative overflow-hidden">
+              <span className="absolute top-3 right-3 md:top-4 md:right-4 bg-white text-gray-900 text-xs font-bold px-2 py-0.5 md:px-3 md:py-1 rounded-full">Monthly</span>
+              <span className="text-white/60 text-xs md:text-sm font-medium uppercase tracking-wide mb-3">Platform Subscription</span>
               <div className="flex items-end gap-1 mb-2">
-                <span className="text-5xl font-extrabold text-white">P50</span>
-                <span className="text-white/50 text-base mb-2">/ month</span>
+                <span className="text-4xl md:text-5xl font-extrabold text-white">P50</span>
+                <span className="text-white/50 text-sm md:text-base mb-2">/ month</span>
               </div>
               <p className="text-white/60 text-sm mb-6">Full access to tracking, health monitoring, analytics, and alerts.</p>
               <a href="/register" className="w-full text-center bg-white text-gray-900 font-semibold py-3 rounded-xl hover:bg-gray-100 transition-colors text-sm">Get Started Free</a>
